@@ -4,7 +4,7 @@ import pickle
 def main():
     label_encoder=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/run.py','rb'))
     model=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/rf.sav#:~:text=rf.sav','rb'))
-    scaler=pickle.load(open('scaler.sav','rb'))
+    scaler=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/rf.sav#:~:text=rf.sav','rb'))
     st.title('Are You Okay?')
     gender=st.selectbox('Gender',options=['Male','Female'])
     age=st.text_input('Enter your Age ')
