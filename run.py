@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 def main():
-    label_encoder=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/run.py','rb'))
+    label_encoder=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/label_encoders.sav#:~:text=label_encoders.sav','rb'))
     model=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/rf.sav#:~:text=rf.sav','rb'))
     scaler=pickle.load(open('https://github.com/iamhardyyy/student-depression-prediction/blob/main/rf.sav#:~:text=rf.sav','rb'))
     st.title('Are You Okay?')
