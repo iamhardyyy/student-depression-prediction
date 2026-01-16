@@ -1,6 +1,5 @@
 import streamlit as st
 import pickle
-from sklearn.preprocessing import LabelEncoder
 
 def main():
     label_encoder=pickle.load(open('label_encoders.sav','rb'))
